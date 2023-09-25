@@ -10,20 +10,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Tên: Cao Nguyễn Vũ - MSV: 21115053120162"
-        android:textColor="@color/white"
-        android:textAlignment="center"
-        android:textSize="15dp"
-        android:layout_marginTop="20dp"
-        />
+        <TextView
+            android:layout_width="220dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Tên: Cao Nguyễn Vũ - MSV: 21115053120162"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_marginTop="150dp"
+            />
         <TextView
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="160dp"
+            android:layout_marginTop="20dp"
             android:text="LOGIN"
             android:fontFamily="@font/poppins_medium"
             android:textColor="#0B9060"
@@ -51,12 +52,12 @@
                 android:clickable="true"
                 android:focusableInTouchMode="true"
                 android:fontFamily="@font/poppins_regular"
-                android:hint="Email"
+                android:hint="Cao Nguyễn Vũ"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
                 android:paddingLeft="17dp"
                 android:textCursorDrawable="@drawable/cursor_color"
-                android:textSize="12sp" />
+                android:textSize="14sp" />
             <!--            ICON-->
             <ImageView
                 android:id="@+id/username_icon"
@@ -90,7 +91,7 @@
                 android:paddingTop="15dp"
                 android:paddingBottom="15dp"
                 android:textCursorDrawable="@drawable/cursor_color"
-                android:textSize="12sp" />
+                android:textSize="14sp" />
             <!--            ICON-->
             <ImageView
                 android:id="@+id/icon"
@@ -162,7 +163,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="60dp"
         android:orientation="vertical">
 
         <LinearLayout

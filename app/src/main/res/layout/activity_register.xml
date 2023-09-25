@@ -11,18 +11,19 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="220dp"
+            android:layout_gravity="center"
             android:layout_height="wrap_content"
             android:text="Tên: Cao Nguyễn Vũ - MSV: 21115053120162"
             android:textColor="@color/white"
             android:textAlignment="center"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:layout_marginTop="20dp"
             />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="120dp"
+            android:layout_marginTop="100dp"
             android:fontFamily="@font/poppins_medium"
             android:text="REGISTER"
             android:textAlignment="center"
@@ -48,12 +49,12 @@
                 android:clickable="true"
                 android:focusableInTouchMode="true"
                 android:fontFamily="@font/poppins_regular"
-                android:hint="Email"
+                android:hint="21115053120162"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
                 android:paddingLeft="17dp"
                 android:textCursorDrawable="@drawable/cursor_color"
-                android:textSize="12sp" />
+                android:textSize="14sp" />
             <!--            ICON-->
             <ImageView
                 android:id="@+id/username_icon"
@@ -79,7 +80,7 @@
                 android:layout_toRightOf="@+id/icon_name"
                 android:background="@android:color/transparent"
                 android:fontFamily="@font/poppins_regular"
-                android:hint="Name"
+                android:hint="Cao Nguyễn Vũ"
                 android:inputType="textPassword"
                 android:maxLength="10"
                 android:maxLines="1"
@@ -87,7 +88,7 @@
                 android:paddingTop="15dp"
                 android:paddingBottom="15dp"
                 android:textCursorDrawable="@drawable/cursor_color"
-                android:textSize="12sp" />
+                android:textSize="14sp" />
             <!--            ICON-->
             <ImageView
                 android:id="@+id/icon_name"
@@ -122,7 +123,7 @@
                 android:paddingTop="15dp"
                 android:paddingBottom="15dp"
                 android:textCursorDrawable="@drawable/cursor_color"
-                android:textSize="12sp" />
+                android:textSize="14sp" />
             <!--            ICON-->
             <ImageView
                 android:id="@+id/icon"
@@ -157,7 +158,7 @@
                 android:paddingTop="15dp"
                 android:paddingBottom="15dp"
                 android:textCursorDrawable="@drawable/cursor_color"
-                android:textSize="12sp" />
+                android:textSize="14sp" />
             <!--            ICON-->
             <ImageView
                 android:id="@+id/iconrepass"
@@ -198,7 +199,7 @@
                 android:layout_marginRight="20dp"
                 android:fontFamily="@font/poppins_medium"
                 android:gravity="center_vertical"
-                android:text="Don't have an account"
+                android:text="Already have an account"
                 android:textColor="#000"
                 android:textSize="10.5sp" />
 
@@ -221,7 +222,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="50dp"
         android:orientation="vertical">
 
         <LinearLayout
